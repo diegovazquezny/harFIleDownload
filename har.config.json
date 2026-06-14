@@ -1,0 +1,24 @@
+{
+  "qboAccounts": [
+    {
+      "username": "",
+      "password": "",
+      "environment": "prod",
+      "accountType": "QBO Plus"
+    }
+  ],
+  "rootOutputDirectory": "output",
+  "afterPageReadyTimeInMs": 1000,
+  "allowedResponseHeaders": [
+    "cache-control",
+    "content-encoding",
+    "content-length",
+    "content-type"
+  ],
+  "notAllowedResponseHeaders": [
+    "serverIPAddress",
+    "_serverPort",
+    "_securityDetails"
+  ],
+  "allowedRequestHeaders": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "hello-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "hello-cdk": "bin/hello-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/adm-zip": "^0.5.8",
+    "@types/jest": "^30",
+    "@types/node": "^24.10.1",
+    "jest": "^30",
+    "ts-jest": "^29",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "gpt-tokenizer": "^3.4.0",
+    "playwright": "^1.57.0"
+  }
+}
